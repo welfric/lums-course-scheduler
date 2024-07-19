@@ -355,19 +355,7 @@ const IndexPage = () => {
 
           {/* link style should be plain under lined black text  */}
           <p>
-            we are looking for developers! email at{" "}
-            <a
-              href="mailto:info@pro-mirage.com"
-              style={{
-                color: "black",
-                textDecoration: "underline",
-              }}
-            >
-              info@pro-mirage.com
-            </a>
-          </p>
-          <p>
-            mfaseehuddin | made with ♥ by{" "}
+            forked from mfaseehuddin by ahmadashraf | made with ♥ by{" "}
             <a
               href="https://pro-mirage.com"
               style={{
@@ -380,17 +368,6 @@ const IndexPage = () => {
             </a>{" "}
             2024
           </p>
-          <div>
-            <a href="https://instagram.com/mfaseehuddin">
-              <img src={instagram} />
-            </a>
-            <a href="https://pro-mirage.com">
-              <img src={mirage} />
-            </a>
-            <a href="https://www.linkedin.com/in/mfaseehuddin2001/">
-              <img src={linkedin} />
-            </a>
-          </div>
         </div>
       </main>
     </>
