@@ -354,7 +354,10 @@ const IndexPage = () => {
           {/* email link */}
 
           {/* link style should be plain under lined black text  */}
-          <p>forked from mfaseehuddin by ahmadashraf | made with ♥ by 2024</p>
+          <p>
+            forked from mfaseehuddin by ahmadashraf (and powered by stuco) |
+            made with ♥ by 2024
+          </p>
         </div>
       </main>
     </>
