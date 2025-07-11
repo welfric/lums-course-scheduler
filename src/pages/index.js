@@ -292,7 +292,7 @@ const IndexPage = () => {
         <div className="Heading">
           <h1>LUMS Course Scheduler | Project Mirage (TEMP)</h1>
 
-          <h5>Updated Spring 2025 | 28 November 2024</h5>
+          <h5>Updated Fall 2025 | 11 July 2025</h5>
         </div>
 
         <div className="calenderContainer">
@@ -354,10 +354,7 @@ const IndexPage = () => {
           {/* email link */}
 
           {/* link style should be plain under lined black text  */}
-          <p>
-            forked from mfaseehuddin by ahmadashraf (and powered by stuco) |
-            made with ♥ by 2024
-          </p>
+          <p>forked from mfaseehuddin by ahmadashraf</p>
         </div>
       </main>
     </>
