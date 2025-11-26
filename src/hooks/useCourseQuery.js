@@ -1,10 +1,10 @@
 import { graphql, useStaticQuery } from "gatsby";
 
 export const useCourseQuery = () => {
-  const { allF2025Csv } = useStaticQuery(
+  const { allS2026Csv } = useStaticQuery(
     graphql`
       query allCourses {
-        allF2025Csv {
+        allS2026Csv {
           nodes {
             id
             Course_Code
@@ -17,5 +17,5 @@ export const useCourseQuery = () => {
       }
     `
   );
-  return allF2025Csv;
+  return allS2026Csv;
 };
